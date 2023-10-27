@@ -1,0 +1,127 @@
+body {
+  background-color: rgb(255,250,250);
+}
+
+.container {
+   position: relative;
+   background-image: url(pexels-tara-winstead-8386434.jpg);
+ }
+ 
+ #image {
+   position: relative;
+   height: 650px;
+ }
+ 
+ #textoCabecalho {
+   color: #191C03;
+   font-family: 'times';
+   font-weight: bold;
+   position: relative;
+   font-size: 25px;
+   left: 670px;
+   top: 43px;
+   padding-right: 40px;
+ }
+
+ #texto {
+  color: white;
+  font-family: 'times';
+  font-weight: bold;
+  position: absolute;
+  font-size: 50px;
+  left: 425px;
+  top: 200px;
+  text-align: center;
+}
+
+ #subTexto {
+  color: white;
+  font-family: 'times';
+  position: absolute;
+  font-size: 35px;
+  left: 530px;
+  top: 300px;
+  text-align: center;
+}
+
+ nav{
+  display: flex;
+  background-color: #9D8080;
+  flex-wrap: wrap-reverse;
+  align-content: flex-end;
+}
+
+#botao{
+  opacity: 50%;
+  position: absolute;
+  font-size: 30px;
+  left: 730px;
+  top: 380px;
+  font-family: 'times';
+}
+
+h1{
+  position: relative;
+  font-size: 50px;
+  left: 530px;
+  top: 50px;
+  font-family: 'times';
+}
+
+h2{
+  position: relative;
+  font-size: 15px;
+  left: 0px;
+  top: 50px;
+  font-family: 'times';
+  text-align: center;
+}
+
+#divCima{
+  background-color: #C3C63B;
+  height: 500px;
+}
+
+#imgCimaUm{
+  position: relative; top: 100px; left: 10px;
+  height: 70%;
+  width: 40%; 
+  background-color: #C3C63B;
+  border: 15px solid #C3C63B; 
+  border-left: 20px solid #C3C63B;
+  border-right: 20px solid #C3C63B;
+  }
+  #imgCimaDois{
+  position: relative; top: 100px; left: 10px;
+  height: 70%;
+  width: 50%; 
+  background-color: #C3C63B;
+  border: 15px solid #C3C63B; 
+  border-left: 20px solid #C3C63B;
+  border-right: 20px solid #C3C63B;
+  }
+
+  #divBaixo{
+    background-color: #C3C63B;
+    height: 500px;
+  }
+
+  #imgBaixoUm{
+    position: relative; top: 100px; left: 10px;
+    height: 70%;
+    width: 54%; 
+    background-color: #C3C63B;
+    border: 15px solid #C3C63B; 
+    border-left: 20px solid #C3C63B;
+    border-right: 20px solid #C3C63B;
+    }
+
+    #imgBaixoDois{
+    position: relative; top: 100px; left: 10px;
+    height: 70%;
+    width: 40%; 
+    background-color: #C3C63B;
+    border: 15px solid #C3C63B; 
+    border-left: 20px solid #C3C63B;
+    border-right: 20px solid #C3C63B;
+    }
