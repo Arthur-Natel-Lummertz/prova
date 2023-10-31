@@ -77,6 +77,56 @@ h2{
   text-align: center;
 }
 
+#hotel{
+  position: relative;
+  font-size: 50px;
+  left: 435px;
+  top: 50px;
+  font-family: 'times';
+  color: aliceblue;
+}
+
+#hotel2{
+  position: relative;
+  font-size: 15px;
+  left: 0px;
+  top: 50px;
+  font-family: 'times';
+  text-align: center;
+  color: aliceblue;
+}
+
+#hotelDesc{
+  position: relative;
+  font-size: 15px;
+  left: 0px;
+  top: 50px;
+  font-family: 'times';
+  text-align: center;
+  color: aliceblue;
+}
+
+#hotelDescEsq{
+  position: relative;
+  font-size: 15px;
+  left: 0px;
+  top: 50px;
+  font-family: 'times';
+  text-align: left;
+  color: aliceblue;
+}
+
+#hotelDescDir{
+  position: relative;
+  font-size: 15px;
+  left: 100px;
+  top: 50px;
+  font-family: 'times';
+  text-align: right;
+  color: aliceblue;
+}
+
+
 #divCima{
   background-color: #C3C63B;
   height: 500px;
@@ -124,4 +174,27 @@ h2{
     border: 15px solid #C3C63B; 
     border-left: 20px solid #C3C63B;
     border-right: 20px solid #C3C63B;
+    }
+
+    #divIcones{
+      background-color: #191C03;
+      height: 500px;
+    }
+
+    #iconFlecha{
+      position: relative; top: 85px; left: 200px;
+      height: 30%;
+      width: 10%; 
+    }
+
+    #iconCasa{
+      position: relative; top: 70px; left: 560px;
+      height: 30%;
+      width: 10%; 
+    }
+
+    #iconPresente{
+      position: relative; top: 60px; left: 915px;
+      height: 24%;
+      width: 10%; 
     }
